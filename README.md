@@ -16,25 +16,22 @@ EPAM project - 26
 
 ## Technologies Used
 - HTML
-- CSS
 - JavaScript
-- Java
+- VS code
 - Git
 - GitHub
 
 ## Assignments
 
 ### Week 1
-JavaScript Case Study - Bank Customer Page
+**Project Name:- Bank Customer Page
 
-### Week 2
-Array, Tree and Graph Problems
-
-### Week 3
-Greedy and Dynamic Programming Problems
-
-### Week 4
-GitHub Assignment
+### Features
+-Welcome messsage on mouse hover
+-Customer ID validation
+-Coupon generation
+-Register button to hide instructions
+-javascript event handling
 
 ## Author
 
