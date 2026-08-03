@@ -16,6 +16,7 @@ EPAM project - 26
 
 ## Technologies Used
 - HTML
+-CSS
 - JavaScript
 - VS code
 - Git

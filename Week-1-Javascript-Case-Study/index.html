@@ -4,53 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XYZ bank Case study</title>
-    <script>
-        function trigger(){
-            document.getElementById("hover").addEventListener("mouseover",popup);
-            function popup(){
-                alert("welcome to XYZ bank!!!");
-            }
-        }
-    </script>
-    <script>
-        function validateCustomer(){
-            var custId=document.getElementById("custID").value;
-            var validateCust=custId.includes("XYZ");
-            if(validateCust){
-                document.write("customer ID is valid,you can proceed further to generate coupon");
-            }
-            else if(validateCust==""){
-                document.write("customer id cannot be blank");
-            }
-            else{
-                document.write("you are not a valid customer");
-            }
-        }
-    </script>
-    <script>
-        function generateCoupon(){
-              var custId=document.getElementById("custID").value;
-            var x=custId+"789456";
-            var validateCust=custId.includes("XYZ");
-            if(validateCust){
-                document.write("your coupon is"+x);
-            }else{
-                document.write("invalid customer ID so coupon cannot be generated");
-            }
-        }
-    </script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body onload="trigger()">
-    <p id="hover">Welcome Customer !!!</p>
+    <div class="container">
+        <p id="hover">Welcome Customer !!!</p>
     <p id="demo">follow the below step to get diwali coupon:-<br>
     (1) Enter your customer ID in the textbox<br>
     (2) Click on the validate customer button<br>
     (3) Click on Register button to hide all the above steps and can apply for coupon <br>
 </p>
 <button type="button" onclick="document.getElementById('demo').style.display='none'">click here to register</button><br><br><br>
-Enter Customer ID:
+<label for="custID">Enter Customer ID:
+</label><br><br>
 <input id="custID" type="text" name="customerID"><br><br>
 <button type="button" onclick="validateCustomer()">Validate customer</button>
 <button type="button" onclick="generateCoupon()">Click here to generate coupon</button>
+    </div>
+<script src="script.js"></script>
 </body>
-</html>
+</html> 
