@@ -1,39 +1,32 @@
 # EPAM Project - 26
 
-## Overview
-This repository contains all the assignments completed as part of the EPAM Student Training Program.
-
-## Repository Structure
-
-```
-EPAM project - 26
-│
-├── Week-1-JavaScript-Case-Study
-├── Week-2-Array-Tree-Graph
-├── Week-3-Greedy-DP
-└── Week-4-GitHub
-```
-
-## Technologies Used
-- HTML
--CSS
-- JavaScript
-- VS code
-- Git
-- GitHub
+This repository contains the assignments completed as part of the EPAM Student Assignment 2026.
 
 ## Assignments
 
-### Week 1
-**Project Name:- Bank Customer Page
+### Week 1 - Bank Customer Landing Page
+- Technology: HTML, CSS, JavaScript
+- Created a bank customer landing page.
+- Implemented customer validation and coupon generation using JavaScript.
 
-### Features
--Welcome messsage on mouse hover
--Customer ID validation
--Coupon generation
--Register button to hide instructions
--javascript event handling
+### Week 2 - Tree & Graph
 
-## Author
+#### Problem 1 - Tree of Trusted Servers
+- Topic: Tree Traversal
+- Approach: DFS
+- Calculates XOR of security keys from the root to each server.
+- Counts servers whose path XOR is greater than or equal to K.
 
-Kapil Carpenter
+#### Problem 2 - Emergency Route Validation
+- Topic: Graph Traversal
+- Approach: Breadth First Search (BFS)
+- Calculates the shortest distance from City 1 to all reachable cities.
+- Counts cities whose shortest distance is less than or equal to D.
+
+## Technologies Used
+
+- Java
+- HTML
+- CSS
+- JavaScript
+- Data Structures & Algorithms
