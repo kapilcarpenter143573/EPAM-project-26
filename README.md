@@ -22,6 +22,30 @@ This repository contains the assignments completed as part of the EPAM Student A
 - Approach: Breadth First Search (BFS)
 - Calculates the shortest distance from City 1 to all reachable cities.
 - Counts cities whose shortest distance is less than or equal to D.
+## Week-3: Greedy & Dynamic Programming
+
+This assignment contains problems based on Greedy Algorithm and Dynamic Programming concepts, implemented in Java.
+
+### Problems Covered
+
+#### 1. Scholarship Distribution
+- Select the maximum number of students whose scholarship amounts can be covered within the given budget.
+- The scholarship amounts are sorted in ascending order and the smallest amounts are selected first.
+- **Technique:** Greedy Algorithm
+- **Time Complexity:** O(N log N)
+
+#### 2. Maximum Learning Points
+- Find the maximum learning points that can be obtained without selecting two consecutive topics.
+- The solution uses Dynamic Programming to calculate the maximum points at each position.
+- **Technique:** Dynamic Programming
+- **Time Complexity:** O(N)
+- **Space Complexity:** O(N)
+
+### Technologies Used
+- Java
+- Data Structures & Algorithms
+- Greedy Algorithm
+- Dynamic Programming
 
 ## Technologies Used
 
