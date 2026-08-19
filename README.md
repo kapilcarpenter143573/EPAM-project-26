@@ -41,6 +41,10 @@ This assignment contains problems based on Greedy Algorithm and Dynamic Programm
 - **Time Complexity:** O(N)
 - **Space Complexity:** O(N)
 
+## Week-4: Git and github
+- in this section there is inforation related to git and github and its certificate completion
+
+
 ### Technologies Used
 - Java
 - Data Structures & Algorithms
